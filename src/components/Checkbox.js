@@ -1,8 +1,16 @@
+import { doc, updateDoc } from "firebase/firestore";
 import { firebase } from "../firebase";
 
 export function Checkbox({ id }) {
-  function archiveTask() {
-    firebase.firestore().collection("tasks").doc(id).update({ archived: true });
+  async function archiveTask(e) {
+    e.preventDefault();
+    console.log(e);
+    const taskDocRef = doc(firebase, "tasks", id);
+    try {
+      await updateDoc(taskDocRef, { archived: true });
+    } catch (err) {
+      alert(err);
+    }
   }
 
   return (
