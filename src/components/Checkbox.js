@@ -11,7 +11,7 @@ export function Checkbox({ id }) {
       data-testid="checkbox-action"
       onClick={() => archiveTask()}
     >
-      <span className="chackbox" />
+      <span className="checkbox" />
     </div>
   );
 }
