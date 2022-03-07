@@ -1,0 +1,48 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  --red: #db4c3f;
+  --white: #fafafa;
+  --textColour: #202020;
+
+  --primary: var(--red);
+  --background-colour: var(--white);
+  --bs: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 4px 11px;
+  --border: 1px solid #f1f1f1;
+}
+
+// General Settings
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Nunito", sans-serif;
+  color: var(--textColour);
+  background-color: var(--background-colour);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+// Darkmode
+.darkmode {
+  header {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+    background-color: #282828;
+    border-color: transparent;
+  }
+}
