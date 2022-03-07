@@ -1,7 +1,8 @@
 import { Checkbox } from "./Checkbox";
+import { useTasks } from "../hooks/useTasks";
 
 export function Tasks() {
-  const tasks = [];
+  const { tasks } = useTasks("1");
   let projectName = "";
 
   return (
