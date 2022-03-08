@@ -34,7 +34,7 @@ const HeaderStyles = styled.header`
   top: 0;
   width: 100%;
 
-  @media (max-width: "900px") {
+  @media (max-width: 900px) {
     padding: 0 10px;
   }
 
