@@ -1,7 +1,6 @@
 import { Header } from "./components/layouts/Header";
 import { Content } from "./components/layouts/Content";
-import { ProjectsProvider } from "./context/projects-context";
-import { SelectedProjectProvider } from "./context/selected-project-provider";
+import { ProjectsProvider, SelectedProjectProvider } from "./context";
 import "./styles/base.scss";
 
 export function App() {
