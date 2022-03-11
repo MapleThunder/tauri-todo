@@ -3,10 +3,20 @@
 
 :root {
   --red: #db4c3f;
+  --purple: #9530c1;
   --white: #fafafa;
+  --light-grey: #cacaca;
   --textColour: #202020;
 
-  --primary: var(--red);
+  // Dot colours
+  --colour-1: #52d8c2;
+  --colour-2: #fad003;
+  --colour-3: #dc564d;
+  --colour-4: #f4ab63;
+  --colour-5: #7b1ea9;
+
+  --primary: var(--purple);
+  --delete: var(--red);
   --background-colour: var(--white);
   --bs: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 4px 11px;
   --border: 1px solid #f1f1f1;
