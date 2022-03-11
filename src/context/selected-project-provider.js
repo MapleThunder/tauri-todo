@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react";
 const SelectedProjectContext = createContext();
 
 function SelectedProjectProvider({ children }) {
-  const { selectedProject, setSelectedProject } = useState("INBOX");
+  const [selectedProject, setSelectedProject] = useState("INBOX");
 
   return (
     <SelectedProjectContext.Provider
